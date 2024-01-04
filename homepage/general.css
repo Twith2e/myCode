@@ -1,0 +1,27 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    background-color: #DDD0C8;
+    box-sizing: border-box;
+    color: black;
+    font-family: arial;
+    font-weight: 700;
+    padding-bottom: 90px;
+    padding-left: 30px;
+    padding-right: 20px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 40px;
+}
