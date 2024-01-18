@@ -40,22 +40,19 @@
         it was not as hard as a I thought. So if you reading this i'd advice not
         to be scared and just start coding today!
       </p>
-      <input class="text-box" type="text" placeholder="Input name" />
-      <button class="greet-btn">Greet</button>
-      <p class="greet-message"></p>
     </main>
     <section>
       <p class="learn-more">Learn other things?</p>
       <div class="yes-no-btn">
         <button type="button" class="btn" id="yes-btn">Yes</button>
-        <a href="no-page.html"
+        <a href="no-page"
           ><button type="button" class="btn" id="no-btn">No</button></a
         >
       </div>
       <nav class="nav flex-column">
-        <a class="nav-link active" href="hobby.html">Favorite Hobby</a>
-        <a class="nav-link" href="extras.html">Extracurricular Activity</a>
-        <a class="nav-link" href="club.html">Favorite Club</a>
+        <a class="nav-link active" href="hobby">Favorite Hobby</a>
+        <a class="nav-link" href="extras">Extracurricular Activity</a>
+        <a class="nav-link" href="club">Favorite Club</a>
       </nav>
     </section>
     <footer>
@@ -75,11 +72,6 @@
     yesBtn.addEventListener("click", function () {
       optionsContainer.style.display = "block";
       window.scrollTo(0, document.body.scrollHeight);
-    });
-
-    greetBtn.addEventListener("click", function () {
-      name = textBox.innerHTML;
-      greetMessage.innerHTML = `Hello, ${name}`;
     });
   </script>
 </html>
